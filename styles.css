@@ -1,65 +1,64 @@
-*{
-	margin:0;
-	padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-	font-family: 'Lato', sans-serif;
-	background: #bac5db;
-	text-align: center;
-	font-size: 22px;
+body {
+  font-family: "Lato", sans-serif;
+  background: #bac5db;
+  text-align: center;
+  font-size: 22px;
 }
 
-article{
-	max-width: 669px;
-	max-height: 384px;
-	margin: 50px auto 50px;
-	border-radius: 30px;
-	background: #353a45;
+article {
+  max-width: 669px;
+  max-height: 384px;
+  margin: 100px auto;
+  border-radius: 30px;
+  background: #353a45;
 }
 
-.div_block{
-	margin-bottom: 20px;
+.div_block {
+  margin-bottom: 20px;
 }
 
-.icon_img{
-	margin-top: -43px;
+.icon_img {
+  margin-top: -43px;
 }
 
-h1{
-	font-weight: bold;
-	font-size: 43px;
-	color: #538fff;
-	margin-bottom: 20px;
+h1 {
+  font-weight: bold;
+  font-size: 43px;
+  color: #538fff;
+  margin-bottom: 20px;
 }
 
-.label{
-	margin-bottom: 30px;
-	color: #fff;
+.label {
+  margin-bottom: 30px;
+  color: #fff;
 }
 
-
-.input_email{
-	display: inline-block;
-	width: 373px;
-	height: 54px;
-	border-radius: 15px;
-	outline: none;
-	border: 0;
-	margin-right: 10px;
+.input_email {
+  display: inline-block;
+  width: 373px;
+  height: 54px;
+  border-radius: 15px;
+  outline: none;
+  border: 0;
+  margin-right: 10px;
 }
 
-form{
-	padding-bottom: 40px;
+form {
+  padding-bottom: 40px;
 }
 
 .input_email::-webkit-input-placeholder {
-    color: #a9a9a9;
-    font-size: 18px;
-    padding-left: 10px;
+  color: #a9a9a9;
+  font-size: 18px;
+  padding-left: 10px;
 }
 .input_email:focus::-webkit-input-placeholder {
-    color: transparent;
+  color: transparent;
 }
 
 /*.input_email::placeholder {
@@ -67,26 +66,25 @@ form{
   font-size: 1.5em;
 }*/
 
-
-.input_submit{
-	display: inline-block;
-	height: 54px;
-	width: 164px;
-	background: #538fff;
-	border-radius: 15px;
-	outline: none;
-	border: 0;
-	text-transform: uppercase;
-	color: #fff;
-	font-size: 18px;
+.input_submit {
+  display: inline-block;
+  height: 54px;
+  width: 164px;
+  background: #538fff;
+  border-radius: 15px;
+  outline: none;
+  border: 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
 }
 
-label{
-	display: block;
-	margin-top: 30px;
-	/*margin-bottom: 40px;*/
-	color: #787d87;
-	font-size: 20px;
-	font-family: 'Myriad Pro';
-	font-style: italic;
+label {
+  display: block;
+  margin-top: 30px;
+  /*margin-bottom: 40px;*/
+  color: #787d87;
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  font-style: italic;
 }
